@@ -29,6 +29,17 @@ Grandes: acima de 1200px
         float: right;
         width: 70%;
     }
+
+    div#formulario > h1 {
+        font-size: 1.8em;
+        margin-top: 5px;
+        margin-bottom: 15px;
+    }
+
+    div#formulario > p {
+        font-size: 1.05em;
+        text-align: justify;
+    }
 } 
 
 @media screen and (min-width: 992px) {
@@ -49,5 +60,17 @@ Grandes: acima de 1200px
     section#login > div#imagem {
         float: right;
         width: 50%;
+        margin-left: 16px;
+    }
+
+    div#formulario > h1 {
+        font-size: 2em;
+        margin-top: 5px;
+        margin-bottom: 15px;
+    }
+
+    div#formulario > p {
+        font-size: 1.2em;
+        text-align: justify;
     }
 }
